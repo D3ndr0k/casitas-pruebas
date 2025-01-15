@@ -1,0 +1,17 @@
+:root {
+  --blue-base: #0095da;
+  --cian: #85e8eb;
+  --bg: #f0f0f0;
+  --black: #000;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "outfit";
+}

@@ -1,0 +1,15 @@
+{
+    "Navbar": {
+        "rent": "Alquiler",
+        "sale": "Venta",
+        "agencies": "Inmobiliarias",
+        "featured": "Destacados",
+        "map": "Mapa",
+        "advertise": "Anunciar",
+        "login": "Ingresar"
+    },
+    "HomePage": {
+        "title": "hola mundo",
+        "about": "queso"
+    }
+}
