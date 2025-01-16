@@ -1,10 +1,16 @@
 import { createNavigation } from "next-intl/navigation";
 
 export const routing = {
-  locales: ["es", "pt"], // Idiomas disponibles
-  defaultLocale: "es", // Idioma por defecto
-  routes: {
-    "/": { es: "/", pt: "/pt" },
+  locales: ["es", "pt"],
+  defaultLocale: "es",
+  async redirects() {
+    return [
+      {
+        source: "/:path*", // Captura todas las rutas
+        destination: "/es/:path*", // Redirige todas las rutas a "/es"
+        permanent: false, // Redirección temporal (302)
+      },
+    ];
   },
 };
 
