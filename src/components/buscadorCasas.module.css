@@ -1,0 +1,66 @@
+/* Estilos generales para la página de búsqueda */
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.suggestions {
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.suggestionItem {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.suggestionItem:hover {
+  background-color: #f0f0f0;
+}
+
+.casaCard {
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.casaTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.casaInfo {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.noResults {
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+}
