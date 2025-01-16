@@ -2,7 +2,7 @@
   box-shadow: 1px;
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
   border-bottom: 1px solid rgb(190, 190, 190);
   padding: 0.8rem 8rem;
 }
