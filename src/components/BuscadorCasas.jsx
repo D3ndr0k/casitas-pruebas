@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import { casas } from "../utils/casas";
-import { useRouter } from "@/i18n/routing";
 import styles from "./buscadorCasas.module.css";
 
 const useDebounce = (value, delay) => {
@@ -15,13 +14,9 @@ const useDebounce = (value, delay) => {
   return debouncedValue;
 };
 
-const BuscadorCasas = () => {
+const BuscadorCasas = ({ locale }) => {
   const [search, setSearch] = useState("");
   const debouncedSearch = useDebounce(search, 500);
-  const router = useRouter();
-
-  const locale = router?.locale || "es"; // Default to 'es' if undefined
-
   const [sugerencias, setSugerencias] = useState([]);
 
   useEffect(() => {
