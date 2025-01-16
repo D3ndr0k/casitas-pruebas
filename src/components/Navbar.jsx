@@ -1,10 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import styles from "./navbar.module.css";
 import { useTranslations } from "next-intl";
+import styles from "./navbar.module.css";
+import LanguageSwitcher from "./LanguageSwitcher";
 
-export default async function Navbar({}) {
+export default function Navbar() {
   const t = useTranslations("Navbar");
 
   return (
@@ -20,17 +22,18 @@ export default async function Navbar({}) {
         </picture>
       </Link>
       <nav className={styles.navbarLeft}>
-        <Link href="/rent">{t("rent")}</Link>
-        <Link href="/sale">{t("sale")}</Link>
-        <Link href="/agencies">{t("agencies")}</Link>
-        <Link href="/featured">{t("featured")}</Link>
-        <Link href="/map">{t("map")}</Link>
+        <Link href={`/rent`}>{t("rent")}</Link>
+        <Link href={`/sale`}>{t("sale")}</Link>
+        <Link href={`/agencies`}>{t("agencies")}</Link>
+        <Link href={`/featured`}>{t("featured")}</Link>
+        <Link href={`/map`}>{t("map")}</Link>
       </nav>
       <nav className={styles.navbarRight}>
-        <Link className={styles.advertise} href="/advertise">
+        <LanguageSwitcher />
+        <Link className={styles.advertise} href={`/advertise`}>
           {t("advertise")}
         </Link>
-        <Link className={styles.login} href="/login">
+        <Link className={styles.login} href={`/login`}>
           {t("login")}
         </Link>
       </nav>

@@ -7,9 +7,5 @@
         "map": "Mapa",
         "advertise": "Anunciar",
         "login": "Ingresar"
-    },
-    "HomePage": {
-        "title": "hola mundo",
-        "about": "queso"
     }
 }
