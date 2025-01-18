@@ -1,19 +1,23 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useLocale } from "next-intl";
 import { useState } from "react";
 import { SiGoogletranslate } from "react-icons/si";
 import styles from "./languageSwitcher.module.css";
+import { usePathname } from "@/i18n/routing";
 
 export default function LanguageSwitcher() {
   const router = useRouter();
   const locale = useLocale();
   const [isOpen, setIsOpen] = useState(false);
+  const searchParams = useSearchParams();
+
+  const pathname = usePathname();
 
   const handleChange = (newLocale) => {
     setIsOpen(false);
-    router.push(`/${newLocale}`);
+    router.push(`/${newLocale}/${pathname}?${searchParams}`);
   };
 
   return (

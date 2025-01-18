@@ -6,9 +6,9 @@ export const routing = {
   async redirects() {
     return [
       {
-        source: "/:path*", // Captura todas las rutas
-        destination: "/es/:path*", // Redirige todas las rutas a "/es"
-        permanent: false, // Redirección temporal (302)
+        source: "/:path*",
+        destination: "/es/:path*",
+        permanent: false,
       },
     ];
   },

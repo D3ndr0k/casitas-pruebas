@@ -1,5 +1,7 @@
 export const casas = [
   {
+    image:
+      "https://cq0rr64ynnzymqt9.public.blob.vercel-storage.com/assets/casa1-RiapbCCgnsRrpJAAaQX3UfTlRaT9fU.jpg",
     ubicacion: "Ayui, Artigas",
     ciudad: "Artigas",
     precio: "$180,000",
@@ -20,6 +22,8 @@ export const casas = [
     calefaccion: true,
   },
   {
+    image:
+      "https://cq0rr64ynnzymqt9.public.blob.vercel-storage.com/assets/casa1-RiapbCCgnsRrpJAAaQX3UfTlRaT9fU.jpg",
     ubicacion: "Rampla, Artigas",
     ciudad: "Artigas",
     precio: "$450,000",
@@ -40,6 +44,8 @@ export const casas = [
     calefaccion: true,
   },
   {
+    image:
+      "https://cq0rr64ynnzymqt9.public.blob.vercel-storage.com/assets/casa1-RiapbCCgnsRrpJAAaQX3UfTlRaT9fU.jpg",
     ubicacion: "Centro, Quaraí",
     ciudad: "Quaraí",
     precio: "$135,000",
@@ -60,6 +66,8 @@ export const casas = [
     calefaccion: false,
   },
   {
+    image:
+      "https://cq0rr64ynnzymqt9.public.blob.vercel-storage.com/assets/casa1-RiapbCCgnsRrpJAAaQX3UfTlRaT9fU.jpg",
     ubicacion: "Ayui, Artigas",
     ciudad: "Artigas",
     precio: "$110,000",
@@ -80,6 +88,8 @@ export const casas = [
     calefaccion: true,
   },
   {
+    image:
+      "https://cq0rr64ynnzymqt9.public.blob.vercel-storage.com/assets/casa1-RiapbCCgnsRrpJAAaQX3UfTlRaT9fU.jpg",
     ubicacion: "Centro, Artigas",
     ciudad: "Artigas",
     precio: "$90,000",
@@ -98,5 +108,27 @@ export const casas = [
     paraMascotas: true,
     amueblado: false,
     calefaccion: false,
+  },
+  {
+    image:
+      "https://cq0rr64ynnzymqt9.public.blob.vercel-storage.com/assets/casa1-RiapbCCgnsRrpJAAaQX3UfTlRaT9fU.jpg",
+    ubicacion: "Aparicio Saravia, Artigas",
+    ciudad: "Artigas",
+    precio: "$230,000",
+    dormitorios: 4,
+    baños: 2,
+    tipoDeNegocio: "Alquiler",
+    tipoDePropiedad: "Casa",
+    condicion: "Usada",
+    superficieTotal: 400,
+    descripcion:
+      "Maravillosa casa de 4 cuartos con 2 baños para alquilar, perfecta para estudiantes con un ambiente tranquilo y silencioso, y un buen patio para relajarse ",
+    patio: true,
+    parillero: false,
+    garage: false,
+    piscina: true,
+    paraMascotas: true,
+    amueblado: false,
+    calefaccion: true,
   },
 ];

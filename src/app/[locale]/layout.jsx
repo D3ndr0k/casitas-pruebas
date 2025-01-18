@@ -9,8 +9,9 @@ const outfitFont = Outfit({
 });
 
 export const metadata = {
-  title: "Mi Aplicación Next.js",
-  description: "Generado por create next app",
+  title: "Casitas",
+  description:
+    "Venta y alquiler de inmuebles la región | Abre la puerta a tu próximo hogar.",
 };
 
 export default async function RootLayout({ children, params }) {
@@ -27,7 +28,7 @@ export default async function RootLayout({ children, params }) {
     messages = (await import(`../../../messages/${locale}.json`)).default;
   } catch (error) {
     console.error(`Error cargando los mensajes para ${locale}:`, error);
-    messages = {}; // Maneja el error de carga de los mensajes
+    messages = {};
   }
 
   return (

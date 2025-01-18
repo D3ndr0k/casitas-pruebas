@@ -1,0 +1,105 @@
+.contenDataCard {
+  width: 80%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataCard {
+  height: 250px;
+  width: calc(100% / 2);
+  margin: 0.5rem;
+  display: flex;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.dataCard .logoInmobiliaria {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+}
+
+.dataCard .logoInmobiliaria img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5rem;
+  margin: 0.5rem;
+  object-fit: cover;
+}
+.dataCard .fotoInmueble img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dataCard .fotoInmueble {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  z-index: 1;
+}
+
+.dataCard .infoCard {
+  flex-direction: column;
+  margin: 0.5rem;
+  width: calc(100% - 250px);
+}
+
+.dataCard .infoCard h3 {
+  font-size: 2.5rem;
+}
+
+.dataCard .infoCard h6 {
+  font-size: 0.8rem;
+}
+
+.dataCard .infoCard div {
+  display: flex;
+}
+.dataCard .infoCard div p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataCard .infoCard div svg {
+  background-color: rgb(133, 133, 133);
+  color: var(--white);
+  padding: 0.2rem;
+  margin: 0.2rem;
+  font-size: 25px;
+  border-radius: 1rem;
+}
+
+.dataCard .infoCard div:last-of-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.dataCard .infoCard div:last-of-type span:first-of-type {
+  display: flex;
+}
+
+.dataCard .infoCard .consult {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.dataCard .infoCard .consult p {
+  background-color: var(--blue-base);
+  padding: 0.8rem;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  font-weight: 600;
+  color: var(--white);
+  margin-top: 4rem;
+}
