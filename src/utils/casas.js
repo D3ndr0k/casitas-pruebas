@@ -13,13 +13,15 @@ export const casas = [
     superficieTotal: 300,
     descripcion:
       "Hermosa casa de 3 dormitorios y 2 baños en una zona tranquila de Montevideo, ideal para familias. Cuenta con amplio patio y calefacción central.",
-    patio: true,
-    parillero: true,
-    garage: true,
-    piscina: false,
-    paraMascotas: true,
-    amueblado: false,
-    calefaccion: true,
+    extras: {
+      patio: true,
+      parillero: true,
+      garage: true,
+      piscina: false,
+      paraMascotas: true,
+      amueblado: false,
+      calefaccion: true,
+    },
   },
   {
     image:
@@ -35,13 +37,15 @@ export const casas = [
     superficieTotal: 500,
     descripcion:
       "Casa de lujo en Punta del Este, con vistas al mar, piscina privada y acabados de alta calidad. Perfecta para quienes buscan confort y exclusividad.",
-    patio: true,
-    parillero: true,
-    garage: true,
-    piscina: true,
-    paraMascotas: true,
-    amueblado: true,
-    calefaccion: true,
+    extras: {
+      patio: true,
+      parillero: true,
+      garage: true,
+      piscina: true,
+      paraMascotas: true,
+      amueblado: true,
+      calefaccion: true,
+    },
   },
   {
     image:
@@ -57,13 +61,15 @@ export const casas = [
     superficieTotal: 250,
     descripcion:
       "Acogedora casa de 2 dormitorios en Ciudad de la Costa. A solo minutos de la playa, perfecta para parejas o pequeñas familias.",
-    patio: true,
-    parillero: false,
-    garage: true,
-    piscina: false,
-    paraMascotas: true,
-    amueblado: false,
-    calefaccion: false,
+    extras: {
+      patio: true,
+      parillero: false,
+      garage: true,
+      piscina: false,
+      paraMascotas: true,
+      amueblado: false,
+      calefaccion: false,
+    },
   },
   {
     image:
@@ -79,13 +85,15 @@ export const casas = [
     superficieTotal: 100,
     descripcion:
       "Moderno apartamento en el centro de Canelones. Ideal para estudiantes o parejas, con bajo mantenimiento y excelentes conexiones.",
-    patio: false,
-    parillero: false,
-    garage: true,
-    piscina: false,
-    paraMascotas: false,
-    amueblado: true,
-    calefaccion: true,
+    extras: {
+      patio: false,
+      parillero: false,
+      garage: true,
+      piscina: false,
+      paraMascotas: false,
+      amueblado: true,
+      calefaccion: true,
+    },
   },
   {
     image:
@@ -101,13 +109,15 @@ export const casas = [
     superficieTotal: 100,
     descripcion:
       "Casa familiar en Salto, cerca del centro y a un precio accesible. Cuenta con patio y parillero, ideal para reuniones familiares.",
-    patio: true,
-    parillero: true,
-    garage: false,
-    piscina: false,
-    paraMascotas: true,
-    amueblado: false,
-    calefaccion: false,
+    extras: {
+      patio: true,
+      parillero: true,
+      garage: false,
+      piscina: false,
+      paraMascotas: true,
+      amueblado: false,
+      calefaccion: false,
+    },
   },
   {
     image:
@@ -123,12 +133,14 @@ export const casas = [
     superficieTotal: 400,
     descripcion:
       "Maravillosa casa de 4 cuartos con 2 baños para alquilar, perfecta para estudiantes con un ambiente tranquilo y silencioso, y un buen patio para relajarse ",
-    patio: true,
-    parillero: false,
-    garage: false,
-    piscina: true,
-    paraMascotas: true,
-    amueblado: false,
-    calefaccion: true,
+    extras: {
+      patio: true,
+      parillero: false,
+      garage: false,
+      piscina: true,
+      paraMascotas: true,
+      amueblado: false,
+      calefaccion: true,
+    },
   },
 ];
